@@ -2,13 +2,13 @@
   "name": "backend_supershop",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "engines": {
     "node": "14.x"
   },
   "scripts": {
-    "start":"server.js",
-    "dev":"nodemon server.js",
+    "start":"index.js",
+    "dev":"nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
