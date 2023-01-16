@@ -20,6 +20,7 @@ exports.getProduct = async (req, res) => {
 
 exports.postProduct = async (req, res) => {
   try {
+    console.log(req.body);
     const result = await ProductPostService(req.body);
     res.status(200).json({
       status: "success",

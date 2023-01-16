@@ -10,9 +10,17 @@ const productSchama = mongoose.Schema({
         type:String,
         required:true
     },
+    brand:{
+        type:String,
+        required:true
+    },
     price:{
         type: Number,
         required:true,
+    },
+    subtitel:{
+        type:String,
+        required:true
     },
     description:{
         type:String,
@@ -24,7 +32,7 @@ const productSchama = mongoose.Schema({
     }
 
 },{
-    timestamp:true
+    timestamps:true
 });
 
 const Product = mongoose.model('Product', productSchama);
